@@ -1,0 +1,101 @@
+.headerstyle{
+    grid-column: 1/ span 4;
+    width: 100%; 
+    height: 8vh; 
+    background-color: #F7F6DC;
+    align-items: center;
+}
+
+.headertxt{
+    text-align: center;
+    color: #FFC090;
+    text-shadow: 1px 1.5px black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3.4rem;
+}
+
+.txthead{
+    float: left;
+    margin-top: 0.5em;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 5rem;
+    text-shadow: 1px 1.5px black;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color: White;
+    text-align: center;
+}
+
+.infotxt{
+    width: 70%; 
+    float: left; 
+    text-align: justify;
+    background-color: #7FB77E;
+    padding: 1.5em;
+    border-radius: 1rem;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.quote{
+    text-align: center;
+    
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: auto;
+}
+
+#disp{
+    float: right;
+    text-align: center;
+    background-color: #7FB77E;
+    padding: 1.5em;
+    border-radius: 1rem;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: 105vh; 
+    margin-top: 2em;
+    margin-bottom: 4.5em;
+    margin-right: 2.5em;
+    margin-left: 2em;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: auto;
+}
+
+#disp:hover{
+    background-color: #F7F6DC;
+    color: #B1D7B4;
+}
+
+button{
+    background-color: tra;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    align-self: center;
+}
+
+.profilepic{
+    border-radius: 50em;
+    height: 18rem;
+    width: 18rem;
+    align-self: center;
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    float:left;
+}
+
+.sidediv{
+    height: 100vh;
+    width: 18rem;
+}
